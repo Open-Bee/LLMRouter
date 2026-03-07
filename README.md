@@ -2,8 +2,6 @@
   <img src="https://img.shields.io/badge/🚀-LLM%20Router-00D4AA?style=for-the-badge&labelColor=000000" alt="LLM Router Logo" height="60"/>
 </p>
 
-<h1 align="center">LLM Router</h1>
-
 <p align="center">
   <strong>High-performance OpenAI API-compatible reverse proxy router for LLM backends</strong>
 </p>
@@ -22,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="docs/readme_zh.md">简体中文</a> | <a href="docs/quick_start.md">Quick Start</a> | <a href="docs/quick_start_zh.md">快速上手</a>
+  <a href="docs/readme_zh.md">简体中文</a> | <a href="docs/quick_start.md">Quick Start</a>
 </p>
 
 ---
@@ -32,16 +30,6 @@
 **LLM Router** is an OpenAI API-compatible reverse proxy router built with Go, providing LLM backend management for [DataStudio](https://github.com/Open-Bee/DataStudio). It supports intelligent load balancing, sliding-window RPM rate limiting, async health checking, automatic failover, and hot-reloading of configurations.
 
 > LLM Router is a companion tool to DataStudio (located in `tools/LLMRouter/`). By pointing `model.api_base` in DataStudio's config to the Router address, all requests are automatically routed to multiple healthy backend instances.
-
-```
-                     ┌─────────────────────────────────────────────┐
-                     │             DataStudio Ecosystem             │
-                     │                                             │
-  DataStudio ──▶ LLM Router ──▶ vLLM / SGLang / OpenAI backends
-  (filter & rewrite)  (load balance, failover, rate limit)
-                     │                                             │
-                     └─────────────────────────────────────────────┘
-```
 
 ## Features
 
@@ -211,4 +199,4 @@ model_list:
 
 ## License
 
-[Apache License 2.0](../LICENSE)
+[Apache License 2.0](LICENSE)

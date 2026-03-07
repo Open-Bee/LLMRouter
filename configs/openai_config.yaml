@@ -1,0 +1,10 @@
+model_list:
+- litellm_params:
+    api_base: http://127.0.0.1:8765/v1
+    api_key: dummy
+    model: openai/DouBao-Seed-1.6-Vision-250815
+    rpm_limit: null
+    source_type: openai
+    supports_vision: true
+    weight: 1.0
+  model_name: DouBao-Seed-1.6-Vision-250815

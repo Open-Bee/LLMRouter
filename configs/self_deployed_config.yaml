@@ -1,0 +1,217 @@
+model_list:
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.191.194.53:22005/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.191.194.53:22006/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.191.194.53:22007/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.191.194.53:22008/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.50.220:22009/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.50.220:22010/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.50.220:22012/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.68.8:22013/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.68.8:22014/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.68.8:22016/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.50.220:22011/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.68.8:22015/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.49.215:22017/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.49.215:22018/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.49.215:22019/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.49.215:22020/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.232.243.220:22009/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.232.243.220:22010/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.232.243.220:22011/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.232.243.220:22012/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.37.157:22005/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.37.157:22047/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.37.157:22007/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null
+    - model_name: Qwen3-VL-30B-A3B-Instruct
+      litellm_params:
+        model: openai/Qwen3-VL-30B-A3B-Instruct
+        api_base: http://29.127.37.157:22008/v1
+        api_key: dummy
+        supports_vision: true
+        weight: 0
+        source_type: self_deployed
+        rpm_limit: null

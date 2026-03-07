@@ -1,0 +1,56 @@
+server:
+  host: "0.0.0.0"
+  port: 8000
+
+routing:
+  strategy: "simple-shuffle"  # simple-shuffle | least-connections | least-waiting
+  num_retries: 3
+
+http_client:
+  request_timeout: 3600    # seconds
+  connect_timeout: 10      # seconds
+  max_idle_conns: 2000
+  max_conns_per_host: 0    # 0 = unlimited
+  idle_conn_timeout: 90    # seconds
+
+health_check:
+  interval: 30             # seconds
+  timeout: 10              # seconds
+  failure_threshold: 3
+  max_concurrency: 20
+  prune_unhealthy_on_start: true  # remove unhealthy backends from config files on startup
+
+retry:
+  base_delay_ms: 500
+  max_delay_ms: 5000
+  jitter_factor: 0.2
+  failure_threshold: 3     # consecutive failures to mark unhealthy from routing
+
+webhook:
+  enabled: false
+  url: ""
+  cooldown_seconds: 300
+  batch_interval: 60
+  report_interval_active: 3600   # seconds, report every 1h when active
+  report_interval_idle: 10800    # seconds, report every 3h when idle
+
+monitor:
+  collect_interval: 1      # seconds
+
+backends:
+  config_dir: "configs"
+  enabled_sources:
+    - "openai"
+    - "self_deployed"
+
+dashboard:
+  enabled: true
+  refresh_interval: 2      # seconds
+  web_port: 80             # web dashboard port
+
+log:
+  level: "info"            # console log level: debug | info | warn | error
+  dir: "logs"              # log file directory; empty = no file logging
+  max_size_mb: 100         # max size per log file before rotation
+  max_backups: 10          # number of old log files to keep
+  max_age_days: 7          # max age in days to retain old log files

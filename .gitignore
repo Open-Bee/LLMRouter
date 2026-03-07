@@ -1,0 +1,39 @@
+# Compiled binary
+llm-router
+router
+
+# Log files
+logs/
+*.log
+
+# Go build cache
+*.exe
+*.exe~
+*.dll
+*.dylib
+*.test
+*.out
+vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude AI
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env

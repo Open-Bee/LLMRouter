@@ -13,8 +13,8 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/Open-Bee/DataStudio"><img src="https://img.shields.io/github/stars/Open-Bee/DataStudio?style=social" alt="GitHub Stars"/></a>
-  <a href="https://github.com/Open-Bee/DataStudio/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"/></a>
+  <a href="https://github.com/Open-Bee/LLMRouter"><img src="https://img.shields.io/github/stars/Open-Bee/LLMRouter?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/Open-Bee/LLMRouter/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"/></a>
   <a href="https://go.dev/"><img src="https://img.shields.io/badge/Go-1.23%2B-00ADD8?logo=go&logoColor=white" alt="Go"/></a>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white" alt="Python"/></a>
 </p>
